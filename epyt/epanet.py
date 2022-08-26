@@ -12616,7 +12616,7 @@ class epanetapi:
         relop = ctypes.c_int()
         status = ctypes.c_int()
         value = ctypes.c_double()
-        self.errcode = self._lib.EN_getpatternvaluexxmise(
+        self.errcode = self._lib.EN_getpremise(
             self._ph,
             int(ruleIndex),
             int(premiseIndex),
